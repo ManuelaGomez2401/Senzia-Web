@@ -77,8 +77,8 @@ Repositorio de GitHub: pega aquí el enlace de tu repositorio.
 Gestión del proyecto en Notion: pega aquí el enlace cuando termines el espacio de trabajo.
 Autores
 
-Katerin Manuela Gómez Jiménez
-Baldor Camilo Sabogal Camacho
+Katerin Manuela Gómez Jiménez -
+Baldor Camilo Sabogal Camacho -
 Liyan Carolina Rodriguez Nieto
 
 Proyecto académico de desarrollo web e inteligencia artificial.
