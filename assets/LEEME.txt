@@ -1,9 +1,0 @@
-Copia aquí las imágenes originales con estos nombres exactos:
-- hero-senzia.png
-- logo-senzia.png
-- senzia-action-advisory.png
-- senzia-insights.png
-- senzia-listen.png
-- senzia-reports.jpg
-
-Las imágenes originales no estaban adjuntas como archivos individuales en el chat, por eso no pueden incluirse automáticamente en este ZIP.
