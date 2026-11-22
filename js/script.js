@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
    * https://script.google.com/macros/s/IDENTIFICADOR/exec
    */
   const FORM_ENDPOINT =
-    "https://script.google.com/macros/s/AKfycbxxf91FqjGfWM_PgCf_YRzSdkKTW9_Xpemf9ThdDbpA9ElDI9vWNoyFP1iuy11wiL2wKg/exec";
+    "https://script.google.com/macros/s/AKfycbzF5cdWK6IW0q0zG3jT_YzqEFcUQ1STjYzjVPy9LhgsV5vVSTWphNknr_hhIR6nnWX9wg/exec";
 
   /* =====================================================
      ELEMENTOS GENERALES
