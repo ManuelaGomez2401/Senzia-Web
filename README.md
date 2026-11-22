@@ -82,5 +82,3 @@ Baldor Camilo Sabogal Camacho
 Liyan Carolina Rodriguez Nieto
 
 Proyecto académico de desarrollo web e inteligencia artificial.
-
-A
