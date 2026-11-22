@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
    * https://script.google.com/macros/s/IDENTIFICADOR/exec
    */
   const FORM_ENDPOINT =
-    "PEGA_AQUI_LA_URL_DE_GOOGLE_APPS_SCRIPT_TERMINADA_EN_EXEC";
+    "https://script.google.com/macros/s/AKfycbxxf91FqjGfWM_PgCf_YRzSdkKTW9_Xpemf9ThdDbpA9ElDI9vWNoyFP1iuy11wiL2wKg/exec";
 
   /* =====================================================
      ELEMENTOS GENERALES
