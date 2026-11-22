@@ -1,7 +1,7 @@
 'use strict';
 document.addEventListener('DOMContentLoaded',()=>{const $=(s,c=document)=>c.querySelector(s),$$=(s,c=document)=>[...c.querySelectorAll(s)];
 // Pega aquí la URL /exec de Google Apps Script.
-const FORM_ENDPOINT='';
+const FORM_ENDPOINT='https://script.google.com/macros/s/AKfycbxxf91FqjGfWM_PgCf_YRzSdkKTW9_Xpemf9ThdDbpA9ElDI9vWNoyFP1iuy11wiL2wKg/exec';
 const header=$('#header'),nav=$('#navLinks'),toggle=$('#menuToggle'),top=$('#toTop');$('#year').textContent=new Date().getFullYear();toggle?.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',open)});$$('#navLinks a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));window.addEventListener('scroll',()=>{header?.classList.toggle('scrolled',scrollY>20);top?.classList.toggle('show',scrollY>600)},{passive:true});top?.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
 const reveals=$$('.reveal');if('IntersectionObserver'in window){const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');o.unobserve(e.target)}}),{threshold:.12});reveals.forEach(e=>o.observe(e))}else reveals.forEach(e=>e.classList.add('visible'));
 $$('[data-count]').forEach(el=>{const run=()=>{const t=+el.dataset.count,s=performance.now();const tick=n=>{const p=Math.min((n-s)/1000,1);el.textContent=Math.round(t*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(tick)};requestAnimationFrame(tick)};if('IntersectionObserver'in window){const o=new IntersectionObserver(([e])=>{if(e.isIntersecting){run();o.disconnect()}},{threshold:.6});o.observe(el)}else run()});
